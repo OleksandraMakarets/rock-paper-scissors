@@ -208,3 +208,49 @@ table caption {
     }
 
 }
+
+@media only screen and (max-width: 480px) {
+    .title {
+        margin-top: 50px;
+        font-size: 1.2rem;
+    }
+
+    .result {
+        font-size: 0.6rem;
+    }
+
+    .container .image-wraper,
+    .result-container .image-wraper {
+        height: 90px;
+    }
+
+    .container img,
+    .result-container img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+    table caption {
+        font-size: 0.6rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    #present-user-score{
+        font-size: 0.6rem;
+    }
+    #present-bot-score{
+        font-size: 0.6rem;
+    }
+    th{
+        font-size: 0.6rem;
+    }
+
+    #replay {
+        font-size: 0.5rem;
+    }
+
+    .end-text p {
+        font-size: 6px;
+    }
+}
