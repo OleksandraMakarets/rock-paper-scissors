@@ -33,3 +33,33 @@ header h1 {
     text-align: center;
     font-family: "Manrope", sans-serif;
 }
+/*Score board style for table*/
+.score-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+table {
+    font-family: "Manrope", sans-serif;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    font-size: 1.3rem;
+}
+
+table tr {
+    text-align: center;
+}
+
+table td {
+    width: 60px;
+}
+
+table caption {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
