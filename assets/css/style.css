@@ -63,3 +63,41 @@ table caption {
     font-weight: 700;
     margin-bottom: 10px;
 }
+/*Style main container with images and result-container*/
+.container .image-wraper,
+.result-container .image-wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 215px;
+    background-color: rgba(92, 92, 179, 0.645);
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+.image-wraper {
+    margin-bottom: 70px
+}
+
+.container .image-wraper:hover {
+    transform: scale(1.05);
+}
+.container,
+.result-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+
+}
+.container img,
+.result-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
