@@ -100,6 +100,7 @@ const compere = (userChoice, botChoice) =>{
 rock.addEventListener("click", () => play("rock"));
 paper.addEventListener("click", () => play("paper"));
 scissors.addEventListener("click", () => play("scissors"));
+replay.addEventListener("click", () => replayGame());
 
 // Hide the element not selected by both
 let changeTheLayout = (userChoice, botChoice) => {
