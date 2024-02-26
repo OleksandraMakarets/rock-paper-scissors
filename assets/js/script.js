@@ -116,28 +116,28 @@ replay.addEventListener("click", () => replayGame());
 // Hide the element not selected by both
 let changeTheLayout = (userChoice, botChoice) => {
 
-     // show the result container
-   resultContainer.style.display = "flex";
-     
-    // change the images
-   firstItem.src = `/assets/images/${userChoice}.jpg`;
-   secondItem.src = `/assets/images/${botChoice}.jpg`;
+    // show the result container
+  resultContainer.style.display = "flex";
 
-    // Scale down the container
-    container.style.transform = "scale(0.5)";
-    container.style.transition = "all 0.5 ease";
-    container.style.pointerEvents = "none";
+   // change the images
+  firstItem.src = `/assets/images/${userChoice}.jpg`;
+  secondItem.src = `/assets/images/${botChoice}.jpg`;
+
+  // Scale down the container
+  container.style.transform = "scale(0.5)";
+  container.style.transition = "all 0.5 ease";
+  container.style.pointerEvents = "none";
 };
 
 const replayGame = () => {
 
-    // hide the result container 
+   // hide the result container 
 
-    resultContainer.style.display = "none";
+   resultContainer.style.display = "none";
 
-    //scale up the container 
+   //scale up the container 
 
-    container.style.transform = "scale(1)";
-    container.style.pointerEvents = "auto";
-    container.style.marginTop = "0px";
+   container.style.transform = "scale(1)";
+   container.style.pointerEvents = "auto";
+   container.style.marginTop = "0px";
 };
