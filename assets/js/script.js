@@ -4,6 +4,9 @@ const paper = document.getElementById("paper");
 const scissors = document.getElementById("scissors");
 const container = document.querySelector(".container");
 
+//Button
+const replay = document.getElementById("replay");
+
 //Results
 const resultContainer = document.querySelector(".result-container");
 const resultPlace = document.getElementById("result");
@@ -124,7 +127,6 @@ let changeTheLayout = (userChoice, botChoice) => {
     container.style.transform = "scale(0.5)";
     container.style.transition = "all 0.5 ease";
     container.style.pointerEvents = "none";
-
 };
 
 const replayGame = () => {
