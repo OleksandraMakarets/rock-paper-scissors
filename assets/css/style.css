@@ -101,3 +101,25 @@ table caption {
     height: 200px;
     object-fit: contain;
 }
+/*Show result container */
+.result {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-family: "Manrope", sans-serif;
+    align-items: center;
+    text-align: center;
+}
+.result-container {
+    display: none;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.result-container .image-wraper {
+    background-color: rgb(92, 92, 179);
+    cursor: default;
+}
+
+.image-wraper h4 {
+    text-align: center;
+}
