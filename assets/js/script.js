@@ -1,9 +1,14 @@
+//get the elements
 const rock = document.getElementById("rock");
 const paper = document.getElementById("paper");
 const scissors = document.getElementById("scissors");
 
 //Results
 const resultPlace = document.getElementById("result");
+//Leaderboard
+const userScorePlace = document.getElementById("user-score");
+const botScorePlace = document.getElementById("bot-score");
+const drawScorePlace = document.getElementById("draw-score");
 
 //Scores
 let userScore = 0;
@@ -31,15 +36,18 @@ const play = (element) => {
 
         resultText = "You won!Сongrats🥳";
         resultPlace.style.color = "green";
+        userScore += 1;
 
     } else if (userPoints < botPoints) {
 
         resultText = "You lost! 🥲";
         resultPlace.style.color = "red";
+        botScore += 1;
 
     } else {
         resultText = "It's a draw!";
         resultPlace.style.color = "black";
+        drawScore += 1;
     }
     // update the result text
     resultPlace.innerText = resultText;
