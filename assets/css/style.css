@@ -140,3 +140,14 @@ table caption {
 #replay:hover {
     background-color: rgb(8, 212, 97);
 }
+/*Footer*/
+.end-text {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.end-text p {
+    color: #151d24;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
