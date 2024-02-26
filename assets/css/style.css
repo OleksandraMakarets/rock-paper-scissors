@@ -15,9 +15,21 @@ body {
 main {
     flex: 1 0 auto;
 }
+/*styles for the header*/
 header{
     box-shadow: 0 1px 6px 0 rgb(32 33 36/10%);
     width: 100%;
     align-items: center;
     text-align: center;
+}
+header h1 {
+    padding-bottom: 40px;
+}
+.title {
+    margin-top: 50px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(65, 25, 102);
+    text-align: center;
+    font-family: "Manrope", sans-serif;
 }
