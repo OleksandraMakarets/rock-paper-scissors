@@ -51,6 +51,11 @@ const play = (element) => {
     }
     // update the result text
     resultPlace.innerText = resultText;
+
+     // update the leaderboard
+     userScorePlace.innerText = userScore; 
+     botScorePlace.innerText = botScore; 
+     drawScorePlace.innerText = drawScore; 
 };
 
 //bot selects a random element
