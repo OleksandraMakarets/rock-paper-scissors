@@ -15,6 +15,9 @@ body {
 main {
     flex: 1 0 auto;
 }
+section {
+    align-items: center;
+}
 /*styles for the header*/
 header{
     box-shadow: 0 1px 6px 0 rgb(32 33 36/10%);
@@ -102,6 +105,12 @@ table caption {
     object-fit: contain;
 }
 /*Show result container */
+.result-wraper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .result {
     margin-top: 50px;
     font-size: 1.5rem;
