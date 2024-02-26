@@ -2,6 +2,11 @@ const rock = document.getElementById("rock");
 const paper = document.getElementById("paper");
 const scissors = document.getElementById("scissors");
 
+//Scores
+let userScore = 0;
+let botScore = 0;
+let drawScore = 0;
+
 //function
 const play = (element) => {
     const userChoice = element;
