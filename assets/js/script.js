@@ -2,9 +2,13 @@
 const rock = document.getElementById("rock");
 const paper = document.getElementById("paper");
 const scissors = document.getElementById("scissors");
+const container = document.querySelector(".container");
 
 //Results
+const resultContainer = document.querySelector(".result-container");
 const resultPlace = document.getElementById("result");
+const firstItem = document.getElementById("result-first-item");
+const secondItem = document.getElementById("result-second-item");
 //Leaderboard
 const userScorePlace = document.getElementById("user-score");
 const botScorePlace = document.getElementById("bot-score");
@@ -20,14 +24,11 @@ const play = (element) => {
     const userChoice = element;
     const botChoice = selectRandom();
 
-    console.log(`User:${userChoice}`);
-    console.log(`Bot: ${botChoice}`);
+    // Hide the element not selected by both
+    changeTheLayout(userChoice, botChoice);
 
     const result = compere(userChoice, botChoice); 
     const [userPoints, botPoints] = result;
-
-    console.log(`User:${userPoints}`);
-    console.log(`Bot: ${botPoints}`);
 
     //Who winner text
     let resultText = "";
@@ -99,3 +100,12 @@ const compere = (userChoice, botChoice) =>{
 rock.addEventListener("click", () => play("rock"));
 paper.addEventListener("click", () => play("paper"));
 scissors.addEventListener("click", () => play("scissors"));
+
+// Hide the element not selected by both
+let changeTheLayout = (userChoice, botChoice) => {
+     
+    // change the images
+   firstItem.src = `/assets/images/${userChoice}.jpg`;
+   secondItem.src = `/assets/images/${botChoice}.jpg`;
+
+};
