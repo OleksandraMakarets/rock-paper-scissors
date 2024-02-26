@@ -123,3 +123,20 @@ table caption {
 .image-wraper h4 {
     text-align: center;
 }
+/*Button*/
+#replay {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: rgb(1, 186, 112);
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#replay:hover {
+    background-color: rgb(8, 212, 97);
+}
