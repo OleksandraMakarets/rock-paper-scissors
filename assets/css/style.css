@@ -9,14 +9,15 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    background: rgb(140, 159, 217) no-repeat;
+    background: linear-gradient(90deg, rgba(140, 159, 217, 0.6125043767507004) 0%, rgba(227, 204, 224, 0.41642594537815125) 100%);
 }
 main {
     flex: 1 0 auto;
-    background-color: aqua;
 }
 header{
-    background-color: bisque;
-}
-footer{
-    background-color: rgb(162, 103, 30);
+    box-shadow: 0 1px 6px 0 rgb(32 33 36/10%);
+    width: 100%;
+    align-items: center;
+    text-align: center;
 }
