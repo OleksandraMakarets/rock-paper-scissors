@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@97.8,300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Roboto+Slab:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+main {
+    flex: 1 0 auto;
+    background-color: aqua;
+}
+header{
+    background-color: bisque;
+}
+footer{
+    background-color: rgb(162, 103, 30);
 }
