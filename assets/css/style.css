@@ -4,6 +4,12 @@
     margin: 0;
     padding: 0;
 }
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
 main {
     flex: 1 0 auto;
     background-color: aqua;
