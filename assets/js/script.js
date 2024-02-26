@@ -118,3 +118,16 @@ let changeTheLayout = (userChoice, botChoice) => {
     container.style.pointerEvents = "none";
 
 };
+
+const replayGame = () => {
+
+    // hide the result container 
+
+    resultContainer.style.display = "none";
+
+    //scale up the container 
+
+    container.style.transform = "scale(1)";
+    container.style.pointerEvents = "auto";
+    container.style.marginTop = "0px";
+};
