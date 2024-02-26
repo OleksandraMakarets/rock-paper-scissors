@@ -9,6 +9,12 @@ const play = (element) => {
 
     console.log(`User:${userChoice}`);
     console.log(`Bot: ${botChoice}`);
+
+    const result = compere(userChoice, botChoice); 
+    const [userPoints, botPoints] = result;
+
+    console.log(`User:${userPoints}`);
+    console.log(`Bot: ${botPoints}`);
 };
 
 //bot selects a random element
