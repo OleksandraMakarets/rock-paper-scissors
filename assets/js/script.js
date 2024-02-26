@@ -2,6 +2,9 @@ const rock = document.getElementById("rock");
 const paper = document.getElementById("paper");
 const scissors = document.getElementById("scissors");
 
+//Results
+const resultPlace = document.getElementById("result");
+
 //Scores
 let userScore = 0;
 let botScore = 0;
@@ -20,6 +23,23 @@ const play = (element) => {
 
     console.log(`User:${userPoints}`);
     console.log(`Bot: ${botPoints}`);
+
+    //Who winner text
+    let resultText = "";
+
+    if(userPoints > botPoints){
+
+        resultText = "You won!Сongrats🥳";
+
+    } else if (userPoints < botPoints) {
+
+        resultText = "You lost! 🥲";
+
+    } else {
+        resultText = "It's a draw!"
+    }
+    // update the result text
+    resultPlace.innerText = resultText;
 };
 
 //bot selects a random element
