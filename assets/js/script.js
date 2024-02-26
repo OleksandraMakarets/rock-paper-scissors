@@ -47,7 +47,6 @@ const compere = (userChoice, botChoice) =>{
             break;
         case "paper":
             botChoice === "rock" ? (userPoints += 1) : (botPoints += 1);
-            botChoice === "scissors" ? (botPoints += 0) : (userPoints += 0);
             break;
         case "scissors":
             botChoice === "paper" ? (userPoints += 1) : (botPoints +=1 );
