@@ -11,6 +11,8 @@ const firstItem = document.getElementById("result-first-item");
 const secondItem = document.getElementById("result-second-item");
 const firstItemText= document.getElementById("first-item-text");
 const secondItemText= document.getElementById("second-item-text");
+const presentUserScore = document.getElementById("present-user-score");
+const presentBotScore = document.getElementById("present-bot-score");
 //Leaderboard
 const userScorePlace = document.getElementById("user-score");
 const botScorePlace = document.getElementById("bot-score");
@@ -54,6 +56,10 @@ const play = (element) => {
     }
     // update the result text
     resultPlace.innerText = resultText;
+    firstItemText.innerText = `You picked ${userChoice}`;
+    secondItemText.innerText = `Bot picked ${botChoice}`;
+    presentUserScore.innerText = userPoints;
+    presentBotScore.innerText = botPoints;
 
      // update the leaderboard
      userScorePlace.innerText = userScore; 
