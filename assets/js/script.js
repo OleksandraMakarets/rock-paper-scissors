@@ -9,6 +9,8 @@ const resultContainer = document.querySelector(".result-container");
 const resultPlace = document.getElementById("result");
 const firstItem = document.getElementById("result-first-item");
 const secondItem = document.getElementById("result-second-item");
+const firstItemText= document.getElementById("first-item-text");
+const secondItemText= document.getElementById("second-item-text");
 //Leaderboard
 const userScorePlace = document.getElementById("user-score");
 const botScorePlace = document.getElementById("bot-score");
