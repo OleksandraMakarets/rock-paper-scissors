@@ -120,8 +120,8 @@ let changeTheLayout = (userChoice, botChoice) => {
   resultContainer.style.display = "flex";
 
    // change the images
-  firstItem.src = `/assets/images/${userChoice}.jpg`;
-  secondItem.src = `/assets/images/${botChoice}.jpg`;
+   firstItem.src = `./assets/images/${userChoice}.jpg`;
+   secondItem.src = `./assets/images/${botChoice}.jpg`;
 
   // Scale down the container
   container.style.transform = "scale(0.5)";
