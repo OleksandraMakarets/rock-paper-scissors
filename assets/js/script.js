@@ -30,13 +30,16 @@ const play = (element) => {
     if(userPoints > botPoints){
 
         resultText = "You won!Сongrats🥳";
+        resultPlace.style.color = "green";
 
     } else if (userPoints < botPoints) {
 
         resultText = "You lost! 🥲";
+        resultPlace.style.color = "red";
 
     } else {
-        resultText = "It's a draw!"
+        resultText = "It's a draw!";
+        resultPlace.style.color = "black";
     }
     // update the result text
     resultPlace.innerText = resultText;
