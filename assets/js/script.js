@@ -4,7 +4,11 @@ const scissors = document.getElementById("scissors");
 
 //function
 const play = (element) => {
-    alert(`You picked ${element}!`);
+    const userChoice = element;
+    const botChoice = selectRandom();
+
+    console.log(`User:${userChoice}`);
+    console.log(`Bot: ${botChoice}`);
 };
 
 //bot selects a random element
