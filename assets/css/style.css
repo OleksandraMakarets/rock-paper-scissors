@@ -160,3 +160,51 @@ table caption {
     font-size: 14px;
     letter-spacing: 2px;
 }
+
+/*Media*/
+@media only screen and (max-width: 768px) {
+    .title {
+        margin-top: 50px;
+        font-size: 1.8rem;
+    }
+
+    .result {
+        font-size: 1rem;
+    }
+
+    .container .image-wraper,
+    .result-container .image-wraper {
+        height: 140px;
+    }
+
+    .container img,
+    .result-container img {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+    }
+
+    table caption {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    #present-user-score{
+        font-size: 1rem;
+    }
+    #present-bot-score{
+        font-size: 1rem;
+    }
+    th{
+        font-size: 1rem;
+    }
+
+    #replay {
+        font-size: 0.8rem;
+    }
+
+    .end-text p {
+        font-size: 9px;
+    }
+
+}
