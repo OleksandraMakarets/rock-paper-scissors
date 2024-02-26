@@ -20,6 +20,34 @@ const selectRandom = () => {
     return randomElement; 
 };
 
+//Compere the choices
+const compere = (userChoice, botChoice) =>{
+    let botPoints = 0;
+    let userPoints = 0;
+
+//Draw
+    if(userChoice === botChoice){
+        return [userPoints, botPoints];
+    }
+
+    switch(userChoice) {
+        case "rock":
+            botChoice === "scissors" ? (userPoints += 1) : (botPoints += 1);
+            break;
+        case "paper":
+            botChoice === "rock" ? (userPoints += 1) : (botPoints += 1);
+            botChoice === "scissors" ? (botPoints += 0) : (userPoints += 0);
+            break;
+        case "scissors":
+            botChoice === "paper" ? (userPoints += 1) : (botPoints +=1 );
+            break;
+        default:
+            console.log("Error");
+    }
+
+    return [userPoints, botPoints]; 
+
+};
 
 //add event listeners
 rock.addEventListener("click", () => play("rock"));
