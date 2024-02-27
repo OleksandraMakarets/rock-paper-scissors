@@ -141,3 +141,8 @@ const replayGame = () => {
    container.style.pointerEvents = "auto";
    container.style.marginTop = "0px";
 };
+
+// Function to open the modal
+function openModal() {
+    document.getElementById('myModal').style.display = 'flex';
+}
