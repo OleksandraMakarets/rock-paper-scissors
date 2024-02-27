@@ -16,6 +16,27 @@
     <!--Header-->
     <header>
         <h1 class="title">Rock - Paper - Scissors</h1>
+        <!-- Button to trigger the modal -->
+        <button class="modal-btn" onclick="openModal()">How to play</button>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+                <h3>Rules of the Game</h3>
+                <p>The rules are straightforward: Rock crushes Scissors, Scissors cuts Paper, and Paper covers Rock. The
+                    game's simplicity and universal appeal make it an excellent choice for social interactions,
+                    icebreakers, or just a friendly competition.</p><br>
+                <h3>Game steps</h3>
+                <ol>
+                    <li>Launch the game in your favorite web browser.</li>
+                    <li>Click on the icon representing your move – Rock 🪨, Paper 📄, or Scissors ✂️.</li>
+                    <li>The computer will make its random move simultaneously.</li>
+                    <li>The winner is decided based on the classic Rock, Paper, Scissors rules. The result is displayed
+                        promptly.</li>
+                    <li>The scoreboard is updated with each round, reflecting your wins, losses, and draws.</li>
+                </ol>
+            </div>
+        </div>
     </header>
     <!--Main-->
     <main>
