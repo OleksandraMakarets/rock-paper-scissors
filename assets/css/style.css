@@ -166,6 +166,7 @@ table caption {
     font-family: "Manrope", sans-serif;
     align-items: center;
     text-align: center;
+    color: rgb(209, 189, 224);
 }
 .result-container {
     display: none;
