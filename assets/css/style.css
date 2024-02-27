@@ -26,11 +26,10 @@ header{
     text-align: center;
 }
 header h1 {
-    padding-bottom: 40px;
+    padding-bottom: 15px;
 }
 .title {
-    margin-top: 50px;
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: 700;
     color: rgb(65, 25, 102);
     text-align: center;
@@ -72,7 +71,7 @@ table caption {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 215px;
+    height: 190px;
     background-color: rgba(92, 92, 179, 0.645);
     border: 1px solid #333;
     border-radius: 10px;
@@ -82,7 +81,7 @@ table caption {
 
 }
 .image-wraper {
-    margin-bottom: 70px
+    margin-bottom: 50px
 }
 
 .container .image-wraper:hover {
@@ -98,10 +97,14 @@ table caption {
     width: 100%;
 
 }
-.container img,
-.result-container img {
-    width: 200px;
-    height: 200px;
+.container img{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+.result-container img{
+    width: 170px;
+    height: 170px;
     object-fit: contain;
 }
 /*Show result container */
@@ -112,8 +115,7 @@ table caption {
     align-items: center;
 }
 .result {
-    margin-top: 50px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: "Manrope", sans-serif;
     align-items: center;
     text-align: center;
