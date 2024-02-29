@@ -161,6 +161,7 @@ The live link can be found here -  [Rock-Paper-Scissors](https://oleksandramakar
 - I used the help of GPT chat when writing Javascript functions
 - I used this code to write the leaderboard [YouTube](https://www.youtube.com/watch?v=jaVNP3nIAv0&t=1s).
 - I got the idea for the game here [YouTube](https://www.youtube.com/watch?v=BLKZ4hd26sg&t=110s).
+- Selection result container setup code [YouTube](https://www.youtube.com/watch?v=wcIQ-jN0C9c&t=1509s).
 - I used this code to create a modal window [YouTube](https://www.youtube.com/watch?v=TAB_v6yBXIE);
 
   
