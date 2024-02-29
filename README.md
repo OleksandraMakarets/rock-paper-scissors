@@ -80,7 +80,8 @@ The Rock, Paper, Scissors game is more than just a simple hand game – it's a v
 - __Replay:__
   - Click the "Replay" button to start a new round and continue the game.
 
-  ## User Stories
+ ## User Stories
+ 
   - As a Visitor, I want to play the Rock, Paper, Scissors game on the website so that I can enjoy a classic and interactive game online.
   - As a User, I want to easily understand the rules of the Rock, Paper, Scissors game, so that I can participate without confusion.
   - As a Player, I want to see visually appealing and clear images representing Rock, Paper, and Scissors during the game, enhancing my gaming experience.
@@ -92,7 +93,7 @@ The Rock, Paper, Scissors game is more than just a simple hand game – it's a v
   - As a Player, I want the website to have a visually appealing and user-friendly design, making my overall interaction with the game enjoyable.
   - As a Visitor, I want to find information about the creator or author of the website, fostering a sense of connection and providing attribution.
 
-  ## Testing
+## Testing
 
 The Rock-Paper-Scissors game has undergone thorough testing to ensure a seamless and enjoyable user experience. The testing process covers various aspects of the game, including functionality, responsiveness, and user interaction.
   
