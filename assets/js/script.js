@@ -42,18 +42,18 @@ const play = (element) => {
 
     if(userPoints > botPoints){
 
-        resultText = "You won!Сongrats🥳";
+        resultText = "You won!Сongrats🎉";
         resultPlace.style.color = "green";
         userScore += 1;
 
     } else if (userPoints < botPoints) {
 
-        resultText = "You lost! 🥲";
+        resultText = "You lost!😥";
         resultPlace.style.color = "red";
         botScore += 1;
 
     } else {
-        resultText = "It's a draw!";
+        resultText = "It's a draw!😒";
         resultPlace.style.color = "black";
         drawScore += 1;
     }
