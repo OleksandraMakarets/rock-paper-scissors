@@ -59,7 +59,7 @@ The Rock, Paper, Scissors game is more than just a simple hand game – it's a v
   
   ![Servises Page](media/footer.png) 
 
-  ## How to Play
+## How to Play
 
  ### Rules of the game
 
@@ -81,7 +81,7 @@ The Rock, Paper, Scissors game is more than just a simple hand game – it's a v
   - Click the "Replay" button to start a new round and continue the game.
 
  ## User Stories
- 
+
   - As a Visitor, I want to play the Rock, Paper, Scissors game on the website so that I can enjoy a classic and interactive game online.
   - As a User, I want to easily understand the rules of the Rock, Paper, Scissors game, so that I can participate without confusion.
   - As a Player, I want to see visually appealing and clear images representing Rock, Paper, and Scissors during the game, enhancing my gaming experience.
