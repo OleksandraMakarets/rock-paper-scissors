@@ -121,3 +121,16 @@ The Rock-Paper-Scissors game has undergone thorough testing to ensure a seamless
 - __JSHint JavaScript Validator__ No errors were found when passing through the official [(JSHint JavaScript Validator) validator](media/javascriptvalidator.png)
 
 - __Accessibility__   I confirmed that the colors and fonts chosen are easy to read and accessible by running it through ![Lighthouse](media/lighthouse.png)
+
+### Bugs
+
+#### Solved bugs
+  
+- When I played the game, the opening results were too large and made a scrollable screen window, which was inconvenient.
+  - I discovered that due to the large size of the pictures, the indents and the maximum height of the container. That's why I made them smaller and the game already fits on a normal screen without scrolling.
+- The X to close the modal window was too small, hard to see.
+  - I made it much bigger so it's perfectly visible now.
+  
+### Unfixed Bugs
+
+- No unfixed bugs
