@@ -165,3 +165,7 @@ The live link can be found here -  [Rock-Paper-Scissors](https://oleksandramakar
 
 - The images in the services page were taken from [Pixabay](https://pixabay.com/images/search/deal/?order=ec).
 
+## Authors
+
+- [@oleksandramakarets](https://github.com/OleksandraMakarets)
+
