@@ -58,3 +58,24 @@ The Rock, Paper, Scissors game is more than just a simple hand game – it's a v
   - Footer section contains copyright information, the year, a declaration of reserved rights.
   
   ![Servises Page](media/footer.png) 
+
+  ## How to Play
+
+ ### Rules of the game
+
+- __The rules are straightforward: Rock crushes Scissors, Scissors cuts Paper, and Paper covers Rock. The game's simplicity and universal appeal make it an excellent choice for social interactions, icebreakers, or just a friendly competition.__
+  
+### Game steps
+
+- __Open the Game:__
+  - Launch the game in your favorite web browser.
+- __Make Your Move:__
+  - Click on the icon representing your move – Rock, Paper, or Scissors.
+- __Computer's Turn:__
+  - The computer will make its random move simultaneously.
+- __Determine the Winner:__
+  - The winner is decided based on the classic Rock, Paper, Scissors rules. The result is displayed promptly.
+- __Score Update::__
+  - The scoreboard is updated with each round, reflecting your wins, losses, and draws.
+- __Replay:__
+  - Click the "Replay" button to start a new round and continue the game.
