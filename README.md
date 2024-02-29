@@ -150,3 +150,18 @@ The Rock-Paper-Scissors game has undergone thorough testing to ensure a seamless
   - Once the master branch has been selected, the page will be automatically; refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here -  [Rock-Paper-Scissors](https://oleksandramakarets.github.io/rock-paper-scissors/)  
+
+## Credits
+
+### Content
+
+- I used the help of GPT chat when writing Javascript functions
+- I used this code to write the leaderboard[YouTube](https://www.youtube.com/watch?v=jaVNP3nIAv0&t=1s).
+- I got the idea for the game here[YouTube](https://www.youtube.com/watch?v=BLKZ4hd26sg&t=110s).
+- I used this code to create a modal window [YouTube](https://www.youtube.com/watch?v=TAB_v6yBXIE);
+
+  
+### Media
+
+- The images in the services page were taken from [Pixabay](https://pixabay.com/images/search/deal/?order=ec).
+
