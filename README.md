@@ -91,3 +91,33 @@ The Rock, Paper, Scissors game is more than just a simple hand game – it's a v
   - As a User, I want the website to have a replay option after completing a game, enabling me to quickly start a new round without unnecessary steps.
   - As a Player, I want the website to have a visually appealing and user-friendly design, making my overall interaction with the game enjoyable.
   - As a Visitor, I want to find information about the creator or author of the website, fostering a sense of connection and providing attribution.
+
+  ## Testing
+
+The Rock-Paper-Scissors game has undergone thorough testing to ensure a seamless and enjoyable user experience. The testing process covers various aspects of the game, including functionality, responsiveness, and user interaction.
+  
+### Functional Testing
+
+- Choice Selection: Users can select one of the choices (Rock, Paper, or Scissors) by clicking on the respective buttons.
+- Computer's Choice: The computer makes a random and fair selection in response to the user's choice.
+- Game Outcome: The game accurately determines the winner, loser, or a draw based on the selected choices.
+- Score Tracking: The user's score is correctly updated after each round, reflecting wins, losses, and draws.
+
+### User Interaction
+
+- Responsive Design: Test the game's responsiveness on various devices and screen sizes to ensure a consistent and visually appealing layout.
+- Game Replay: Users can restart the game by clicking on the "Replay" button, resetting the score and allowing them to play again.
+
+### Cross-Browser Compatibility
+
+- Browser Testing: The game functions as expected across different web browsers, including Chrome, Firefox, Safari, and Opera.
+- On mobile devices, I tested the my site on a Samsung Galaxy A33 5G a with the Samsung browser and an iPhone 12Pro with the Safari browser.
+
+### Validator Testing
+
+- __HTML__ No errors detected, there is a warning when testing using [W3C validator](media/htmlvalidator.png)
+  
+- __CSS__  No errors were found when passing through the official [(Jigsaw) validator](media/cssvalidator.png)
+- __JSHint JavaScript Validator__ No errors were found when passing through the official [(JSHint JavaScript Validator) validator](media/javascriptvalidator.png)
+
+- __Accessibility__   I confirmed that the colors and fonts chosen are easy to read and accessible by running it through ![Lighthouse](media/lighthouse.png)
