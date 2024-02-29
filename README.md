@@ -79,3 +79,15 @@ The Rock, Paper, Scissors game is more than just a simple hand game – it's a v
   - The scoreboard is updated with each round, reflecting your wins, losses, and draws.
 - __Replay:__
   - Click the "Replay" button to start a new round and continue the game.
+
+  ## User Stories
+  - As a Visitor, I want to play the Rock, Paper, Scissors game on the website so that I can enjoy a classic and interactive game online.
+  - As a User, I want to easily understand the rules of the Rock, Paper, Scissors game, so that I can participate without confusion.
+  - As a Player, I want to see visually appealing and clear images representing Rock, Paper, and Scissors during the game, enhancing my gaming experience.
+  - As a User, I want to receive immediate feedback on the game results after making a choice, allowing me to know whether I won, lost, or it was a draw.
+  - As a Gamer, I want to view and track my personal scores, including wins, losses, and draws, to keep a record of my performance over time.
+  - As a Player, I want the website to provide a responsive and enjoyable experience on different devices, including desktops, tablets, and smartphones.
+  - As a Visitor, I want to easily navigate the website to find information about the game, rules, and any additional features it offers.
+  - As a User, I want the website to have a replay option after completing a game, enabling me to quickly start a new round without unnecessary steps.
+  - As a Player, I want the website to have a visually appealing and user-friendly design, making my overall interaction with the game enjoyable.
+  - As a Visitor, I want to find information about the creator or author of the website, fostering a sense of connection and providing attribution.
