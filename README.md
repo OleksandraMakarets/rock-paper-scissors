@@ -134,3 +134,19 @@ The Rock-Paper-Scissors game has undergone thorough testing to ensure a seamless
 ### Unfixed Bugs
 
 - No unfixed bugs
+
+## Technologies
+
+- HTML - To create a basic site.
+- CSS - To create a nice, standout front-end and to give a great user experience.
+- JavaScript - To enhance web development and create dynamic and interactive user interfaces. 
+- Canva - to improve used images and create favicon.
+
+## Deployment
+
+- __The site was deployed to GitHub pages. The steps to deploy are as follows:__
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the source section drop-down menu, select the Master Branch.
+  - Once the master branch has been selected, the page will be automatically; refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here -  [Rock-Paper-Scissors](https://oleksandramakarets.github.io/rock-paper-scissors/)  
